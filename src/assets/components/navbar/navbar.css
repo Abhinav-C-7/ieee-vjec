@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mochiy+Pop+One&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: poppins;
+
+}
+ul li{
+padding: 18px;
+font-weight: 400;
+cursor: pointer;
+}
+
+
+
+
+ .navbar{
+    position: relative;
+    background: #00629B;
+    color: #E2F1FB;
+    font-size: 18px;
+    border-radius: 10px;  
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+
+}
+
+/* Responsive Design */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+      
+      font-size: 16px;
+    }
+  
+    ul {
+      gap: 20px;
+    }
+  
+    ul li {
+      padding: 15px;
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .navbar {
+    
+      margin-left: 2vw;
+      margin-right: 2vw;
+      font-size: 14px;
+      border-radius: 10px; /* Remove border radius for mobile */
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      
+    }
+  
+    ul li {
+        
+      padding: 10px;
+    }
+  }
